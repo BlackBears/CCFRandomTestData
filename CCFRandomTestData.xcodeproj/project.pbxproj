@@ -18,7 +18,12 @@
 		E7986A6C17BEA6B0006D47D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7986A5117BEA6B0006D47D9 /* Foundation.framework */; };
 		E7986A6D17BEA6B0006D47D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7986A5517BEA6B0006D47D9 /* UIKit.framework */; };
 		E7986A7517BEA6B0006D47D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E7986A7317BEA6B0006D47D9 /* InfoPlist.strings */; };
-		E7986A7717BEA6B0006D47D9 /* CCFRandomTestDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7986A7617BEA6B0006D47D9 /* CCFRandomTestDataTests.m */; };
+		E7986A8617BEA852006D47D9 /* female.txt in Resources */ = {isa = PBXBuildFile; fileRef = E7986A8517BEA852006D47D9 /* female.txt */; };
+		E7986A8817BEAA2D006D47D9 /* NSStringRandomStringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7986A8717BEAA2D006D47D9 /* NSStringRandomStringTests.m */; };
+		E7986A8A17BEAEF0006D47D9 /* male.txt in Resources */ = {isa = PBXBuildFile; fileRef = E7986A8917BEAEE3006D47D9 /* male.txt */; };
+		E7986A8E17BEB28B006D47D9 /* NSString+RandomData.m in Sources */ = {isa = PBXBuildFile; fileRef = E7986A8217BEA7AD006D47D9 /* NSString+RandomData.m */; };
+		E7986A8F17BEB2A7006D47D9 /* last.txt in Resources */ = {isa = PBXBuildFile; fileRef = E7986A8D17BEB175006D47D9 /* last.txt */; };
+		E7986A9117BEB5C3006D47D9 /* countries.txt in Resources */ = {isa = PBXBuildFile; fileRef = E7986A9017BEB5C3006D47D9 /* countries.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +52,13 @@
 		E7986A6A17BEA6B0006D47D9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E7986A7217BEA6B0006D47D9 /* CCFRandomTestDataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CCFRandomTestDataTests-Info.plist"; sourceTree = "<group>"; };
 		E7986A7417BEA6B0006D47D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E7986A7617BEA6B0006D47D9 /* CCFRandomTestDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCFRandomTestDataTests.m; sourceTree = "<group>"; };
+		E7986A8117BEA7AD006D47D9 /* NSString+RandomData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RandomData.h"; sourceTree = "<group>"; };
+		E7986A8217BEA7AD006D47D9 /* NSString+RandomData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RandomData.m"; sourceTree = "<group>"; };
+		E7986A8517BEA852006D47D9 /* female.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = female.txt; sourceTree = "<group>"; };
+		E7986A8717BEAA2D006D47D9 /* NSStringRandomStringTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringRandomStringTests.m; sourceTree = "<group>"; };
+		E7986A8917BEAEE3006D47D9 /* male.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = male.txt; sourceTree = "<group>"; };
+		E7986A8D17BEB175006D47D9 /* last.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = last.txt; sourceTree = "<group>"; };
+		E7986A9017BEB5C3006D47D9 /* countries.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = countries.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +88,7 @@
 		E7986A4517BEA6B0006D47D9 = {
 			isa = PBXGroup;
 			children = (
+				E7986A8017BEA6CD006D47D9 /* core */,
 				E7986A5717BEA6B0006D47D9 /* CCFRandomTestData */,
 				E7986A7017BEA6B0006D47D9 /* CCFRandomTestDataTests */,
 				E7986A5017BEA6B0006D47D9 /* Frameworks */,
@@ -129,7 +141,7 @@
 		E7986A7017BEA6B0006D47D9 /* CCFRandomTestDataTests */ = {
 			isa = PBXGroup;
 			children = (
-				E7986A7617BEA6B0006D47D9 /* CCFRandomTestDataTests.m */,
+				E7986A8717BEAA2D006D47D9 /* NSStringRandomStringTests.m */,
 				E7986A7117BEA6B0006D47D9 /* Supporting Files */,
 			);
 			path = CCFRandomTestDataTests;
@@ -142,6 +154,27 @@
 				E7986A7317BEA6B0006D47D9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E7986A8017BEA6CD006D47D9 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				E7986A8417BEA7CC006D47D9 /* data */,
+				E7986A8117BEA7AD006D47D9 /* NSString+RandomData.h */,
+				E7986A8217BEA7AD006D47D9 /* NSString+RandomData.m */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		E7986A8417BEA7CC006D47D9 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				E7986A8D17BEB175006D47D9 /* last.txt */,
+				E7986A8517BEA852006D47D9 /* female.txt */,
+				E7986A8917BEAEE3006D47D9 /* male.txt */,
+				E7986A9017BEB5C3006D47D9 /* countries.txt */,
+			);
+			name = data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +254,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7986A5C17BEA6B0006D47D9 /* InfoPlist.strings in Resources */,
+				E7986A8A17BEAEF0006D47D9 /* male.txt in Resources */,
+				E7986A8617BEA852006D47D9 /* female.txt in Resources */,
+				E7986A9117BEB5C3006D47D9 /* countries.txt in Resources */,
+				E7986A8F17BEB2A7006D47D9 /* last.txt in Resources */,
 				E7986A6417BEA6B0006D47D9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7986A8E17BEB28B006D47D9 /* NSString+RandomData.m in Sources */,
 				E7986A5E17BEA6B0006D47D9 /* main.m in Sources */,
 				E7986A6217BEA6B0006D47D9 /* CCFAppDelegate.m in Sources */,
 			);
@@ -249,7 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7986A7717BEA6B0006D47D9 /* CCFRandomTestDataTests.m in Sources */,
+				E7986A8817BEAA2D006D47D9 /* NSStringRandomStringTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
