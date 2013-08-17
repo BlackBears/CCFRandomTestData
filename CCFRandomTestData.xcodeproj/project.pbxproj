@@ -60,6 +60,7 @@
 		E7986A8D17BEB175006D47D9 /* last.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = last.txt; sourceTree = "<group>"; };
 		E7986A9017BEB5C3006D47D9 /* countries.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = countries.txt; sourceTree = "<group>"; };
 		E7986A9517BF131E006D47D9 /* CCFRandomTestData.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = CCFRandomTestData.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E7986A9617BF1587006D47D9 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				E7986A9517BF131E006D47D9 /* CCFRandomTestData.podspec */,
+				E7986A9617BF1587006D47D9 /* LICENSE */,
 				E7986A8017BEA6CD006D47D9 /* core */,
 				E7986A5717BEA6B0006D47D9 /* CCFRandomTestData */,
 				E7986A7017BEA6B0006D47D9 /* CCFRandomTestDataTests */,
